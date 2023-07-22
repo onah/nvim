@@ -1,3 +1,9 @@
 [submodule "pack/colors/start/vim-hybrid"]
 	path = pack/colors/start/vim-hybrid
 	url = https://github.com/w0ng/vim-hybrid.git
+[submodule "pack/vendor/start/lualine.nvim"]
+	path = pack/vendor/start/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim.git
+[submodule "pack/vendor/start/nvim-web-devicons"]
+	path = pack/vendor/start/nvim-web-devicons
+	url = https://github.com/nvim-tree/nvim-web-devicons.git
