@@ -1,32 +1,32 @@
-# nvim
-neovim setup files for windows
+# Overview
+neovim setup files (for windows now)
 
-# require
+# Require
 - git
 - neovim
 
-# install
+# Install
 
 ```
 > cd %localappdata%
-> git clone https://github.com/onah/nvim.git
+> git clone --recursive https://github.com/onah/nvim.git
 ```
-
-# add plugin
+k
+# Add plugin
 
 ```
 > cd %localappdata%\nvim
 > git submodule add https://github.com/xxx pack\vender\start\xxx
 ```
 
-# update plugin
+# Update plugin
 
 ```
 > git submodule foreach git pull
 > git commit -a -m 'Update all vim plugins'
 ```
 
-# inspired
+# Inspired
 
 Vim 8 時代のがんばらないプラグイン管理のすすめ
 
