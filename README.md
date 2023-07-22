@@ -15,7 +15,8 @@ neovim setup files for windows
 # add plugin
 
 ```
-> git submodule add https://github.com/xxx
+> cd %localappdata%\nvim
+> git submodule add https://github.com/xxx pack\vender\start\xxx
 ```
 
 # update plugin
@@ -28,4 +29,5 @@ neovim setup files for windows
 # inspired
 
 Vim 8 時代のがんばらないプラグイン管理のすすめ
+
 https://tyru.hatenablog.com/entry/2017/12/20/035142
