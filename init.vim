@@ -2,6 +2,8 @@ set number
 
 let mapleader = "\<Space>"
 
+colorscheme hybrid
+"
 " Easy Write and Exit
 nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
