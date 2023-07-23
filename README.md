@@ -2,8 +2,10 @@
 neovim setup files (for windows now)
 
 # Require
+
 - git
 - neovim
+- ripgrep
 
 # Install
 

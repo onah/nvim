@@ -7,3 +7,9 @@
 [submodule "pack/vendor/start/nvim-web-devicons"]
 	path = pack/vendor/start/nvim-web-devicons
 	url = https://github.com/nvim-tree/nvim-web-devicons.git
+[submodule "pack/vendor/start/plenary.nvim"]
+	path = pack/vendor/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim.git
+[submodule "pack/vendor/start/telescope.nvim"]
+	path = pack/vendor/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim.git
