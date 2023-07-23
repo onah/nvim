@@ -13,3 +13,6 @@
 [submodule "pack/vendor/start/telescope.nvim"]
 	path = pack/vendor/start/telescope.nvim
 	url = https://github.com/nvim-telescope/telescope.nvim.git
+[submodule "pack/vendor/start/memolist.vim"]
+	path = pack/vendor/start/memolist.vim
+	url = https://github.com/glidenote/memolist.vim.git
