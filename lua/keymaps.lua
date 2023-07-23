@@ -23,8 +23,9 @@ local memolist_opts = {
 }
 
 vim.api.nvim_set_keymap('n', '<Leader>mn', ':MemoNew<CR>', { noremap = true, silent = true })
---vim.api.nvim_set_keymap('n', '<Leader>ml', ':MemoList<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>ml', function() telescope_builtin.find_files(memolist_opts) end, {})
-vim.api.nvim_set_keymap('n', '<Leader>mg', ':MemoGrep<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>mg', function() telescope_builtin.live_grep(memolist_opts) end, {})
+--vim.api.nvim_set_keymap('n', '<Leader>ml', ':MemoList<CR>', { noremap = true, silent = true })
+--vim.api.nvim_set_keymap('n', '<Leader>mg', ':MemoGrep<CR>', { noremap = true, silent = true })
 
 
