@@ -11,7 +11,7 @@ neovim setup files (for windows now)
 > cd %localappdata%
 > git clone --recursive https://github.com/onah/nvim.git
 ```
-k
+
 # Add plugin
 
 ```
