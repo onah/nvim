@@ -16,3 +16,6 @@
 [submodule "pack/vendor/start/memolist.vim"]
 	path = pack/vendor/start/memolist.vim
 	url = https://github.com/glidenote/memolist.vim.git
+[submodule "pack/vendor/start/nvim-ghost.nvim"]
+	path = pack/vendor/start/nvim-ghost.nvim
+	url = https://github.com/subnut/nvim-ghost.nvim.git
