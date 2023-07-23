@@ -18,8 +18,13 @@ vim.keymap.set('n', '<leader>tb', telescope_builtin.buffers, {})
 vim.keymap.set('n', '<leader>th', telescope_builtin.help_tags, {})
 
 -- memo
+local memolist_opts = {
+    cwd = vim.g.memolist_path
+}
+
 vim.api.nvim_set_keymap('n', '<Leader>mn', ':MemoNew<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n', '<Leader>ml', ':MemoList<CR>', { noremap = true, silent = true })
+--vim.api.nvim_set_keymap('n', '<Leader>ml', ':MemoList<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>ml', function() telescope_builtin.find_files(memolist_opts) end, {})
 vim.api.nvim_set_keymap('n', '<Leader>mg', ':MemoGrep<CR>', { noremap = true, silent = true })
 
 
